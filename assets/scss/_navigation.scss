@@ -1,6 +1,8 @@
 .navigation {
   width: 100%;
-  background-image: url($bg-blue-tile-url); 
+  background-image: url($bg-blue-tile-url);
+  background-repeat:no-repeat;
+  background-color: $yellow;
   padding: 1rem 0;
   a, span {
     display: inline;
