@@ -1,8 +1,7 @@
 .navigation {
   width: 100%;
-  background-image: url($bg-blue-tile-url);
   background-repeat:no-repeat;
-  background-color: $yellow;
+  background-color: $orange;
   padding: 1rem 0;
   a, span {
     display: inline;
@@ -38,8 +37,7 @@
   .nav-title {
     letter-spacing: 0.1rem;
     padding-left: 1rem;
-    margin: 0;
-
+    margin: 25px;
   }
 
   .nav-left {
