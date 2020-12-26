@@ -6,9 +6,9 @@
   </section>
   <section class="pure-u-1 pure-u-md-1-2 nav-right">
     {{ with .Site.Menus.main}}
-    {{ range . }}
-    <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
-    {{ end }}
+      {{ range . }}
+        <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+      {{ end }}
     {{ end }}
   </section>
 </nav>
